@@ -4,11 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/stylesheet.css" />
+    <script src="java.js"></script>
     <title>Mosher Portfolio</title>
   </head>
-  <body>
+  <body id="pageBody">
     <h1 class="title">Matisse Mosher JavaScript Portfolio</h1>
 
+    <div class="buttons">
+      <h2>Settings</h2>
+      <p id="settings">Current Setting: Blossom</p>
+      <button class="button" onclick="blossom()">Blossom</button>
+      <button class="button button2" onclick="bubbles()">Bubbles</button>
+      <button class="button button3" onclick="buttercup()">Buttercup</button>
+    </div>
     <div class="profile">
       <img src="Matisse.jpg" alt="Matisse Rafting" />
 
@@ -26,5 +34,5 @@
     <h2>JavaScript Demonstrations</h2>
   </body>
 
-  <footer>2025 Matisse Mosher. All rights reservered.</footer>
+  <footer id="footer">2025 Matisse Mosher. All rights reservered.</footer>
 </html>
